@@ -31,7 +31,7 @@ public class Test{
         System.out.println(c);
 
         List<Integer> list=new ArrayList();
-        Map<String,String> map=new HashMap<>();
+        Map<String,String> map=new HashMap<String, String>();
         map.put("2","2");
         map.put("1","1");
         System.out.println("--->"+map.containsValue("2"));
@@ -47,7 +47,7 @@ public class Test{
         String str2="sie";
         System.out.println(str1.matches(str2));
 
-        List<String> list1=new ArrayList<>();
+        List<String> list1=new ArrayList<String>();
         list1.add("a");
         list1.add("b");
         t(1,list1.toArray());
