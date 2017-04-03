@@ -2,10 +2,18 @@
 
 
  **此网站供本人学习使用：**
+        
+   **1.安装依赖**
        
        本地需要安装maven,导入相应的依赖包；
-       fuzhongyu目录下以知识点分包，main()和test()为程序入口，Test为测试、执行类；
-       以下为/src/main/java/com/fuzhongyu目录下的目录结构
+       
+   **2.文件说明**
+   
+       /src/main/java/com/fzy目录下以知识点分包，main()和test()为程序入口，Test为测试、执行类；
+   
+   **3.目录说明**  
+   
+        以下为/src/main/java/com/fzy目录下的目录结构
    
    _目录结构：_ 
      
