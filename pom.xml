@@ -4,10 +4,36 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <!--groupId一般填写:反写的公司网站+项目名-->
     <groupId>com.fzy.myLearn_1</groupId>
+    <!--artifactId填写：项目名+模块名，maven模块化开发故这样标注-->
     <artifactId>MyLearn_1</artifactId>
+      <!--version 版本：snapshot快照，alpha内测版本，beta公测版本，release稳定版本，ga正式发布版本-->
     <version>1.0-SNAPSHOT</version>
+    <!--打包方式默认jar  除此之外还有war,zip ,pom-->
+    <packaging>war</packaging>
 
+    <!--项目名称-->
+    <name>MyLearn_1</name>
+    <!--项目地址-->
+    <url></url>
+    <!--项目描述-->
+    <description>学习，测试</description>
+    <!--开发人员-->
+    <developers>
+        <developer>
+            <name>fuzhongyu</name>
+        </developer>
+    </developers>
+    <!--许可证信息，有些开源框架可能会需要一些许可证信息-->
+    <!--<licenses></licenses>-->
+    <!--组织信息-->
+    <organization><name>personal</name></organization>
+
+    <!--属性定义-->
+    <properties></properties>
+
+    <!--为项目提供支持，如添加插件plugins-->
     <build>
         <plugins>
             <plugin>
@@ -21,14 +47,49 @@
         </plugins>
     </build>
 
+    <!--dependencyManagement:依赖管理，常用在继承父模块依赖，写在父类中-->
+   <!-- <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId></groupId>
+                <artifactId></artifactId>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>-->
+
+    <!--parent:父模块继承，与dependencyManagement连用，写在子类中-->
+    <!--<parent></parent>-->
+
+    <!--modules:聚合运行多个maven项目-->
+    <!--<modules>-->
+        <!--<module></module>-->
+    <!--</modules>-->
+
     <!-- 依赖项定义 -->
     <dependencies>
+
+        <!-- 定义选项说明-->
+        <!--<dependency>-->
+            <!--<groupId></groupId>-->
+            <!--<artifactId></artifactId>-->
+            <!--<version></version>-->
+
+            <!--依赖范围定义-->
+            <!--<scope></scope>-->
+
+            <!--exclusions用来排除依赖传递，如：a依赖于b,依赖于c，则传递依赖会有a依赖c，但此时我不想有a和c这层依赖则可配置该选项-->
+            <!-- <exclusions>
+                     <exclusion></exclusion>
+                 </exclusions>-->
+        <!--</dependency>-->
+
 
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.8.1</version>
+            <scope>test</scope>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
