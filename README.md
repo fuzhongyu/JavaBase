@@ -1,15 +1,15 @@
 # MyLearn_1
 
 
- **此网站供本人学习使用：**
+ **此项目供本人学习使用：**
         
    **1.安装依赖**
        
-       本地需要安装maven,导入相应的依赖包；
+       本地需要安装jdk、maven等 基础工具
        
    **2.文件说明**
    
-       /src/main/java/com/fzy目录下以知识点分包，main()和test()为程序入口，Test为测试、执行类；
+       /src/main/java/com/fzy目录下以知识点分包，main()和*test()为程序入口，Test为测试类；
    
    **3.目录说明**  
    
@@ -28,7 +28,6 @@
       │   └──sort_algorithm          //排序算法
       │
       ├──redis                 //redis缓存
-      │   └── lib                    //包（redis驱动包、连接池包）
       │
       ├──regular               //正则表达式
       │
