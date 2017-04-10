@@ -10,6 +10,8 @@
    #### 2.文件说明
    
        /src/main/java/com/fzy目录下以知识点分包，main()和*test()为程序入口，Test为测试类；
+       
+       pom.xml文件中注释了maven的一些基本配置方法。
    
    #### 3.目录说明 
    
