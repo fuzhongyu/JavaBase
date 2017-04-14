@@ -52,6 +52,7 @@ public class Test{
         list1.add("b");
         t(1,list1.toArray());
 
+
     }
 
     public static void t(int a,Object... strings){}
