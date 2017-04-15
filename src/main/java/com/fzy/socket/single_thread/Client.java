@@ -1,6 +1,7 @@
 package com.fzy.socket.single_thread;
 
 import java.io.*;
+import java.net.InetSocketAddress;
 import java.net.Socket;
 
 /**
@@ -21,6 +22,8 @@ public class Client {
     public Client(String serverIp,int serverPort) throws IOException {
         //创建客户端Socket，指定服务器地址和端口
         clientSocket=new Socket(serverIp,serverPort);
+//        clientSocket=new Socket();
+//        clientSocket.connect(new InetSocketAddress(serverIp,serverPort));
     }
 
     public void service(String info) throws IOException {
