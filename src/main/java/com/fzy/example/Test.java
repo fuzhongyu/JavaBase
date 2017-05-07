@@ -1,6 +1,9 @@
 package com.fzy.example;
 
 
+import java.io.File;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.util.*;
 
 /**
@@ -8,6 +11,7 @@ import java.util.*;
  */
 public class Test{
 
+    private double d1=1.0;
     public static void main(String[] args) {
         System.out.println("i can use git");
         System.out.println("test diff");
@@ -21,11 +25,14 @@ public class Test{
         test1.setName("eed");
         test1.setName("df");
 
-        String a="ok";
-        String b=new String("ok");
-        Object object=new Object();
-        if(a==b){
-            System.out.println("===");
+        String okt="okt";
+        String t="t";
+        String ok=new String("ok");
+        System.out.println(okt.hashCode()+"   "+(ok+t).hashCode());
+        if(okt==(ok+t)){
+            System.out.println("====");
+        }else {
+            System.out.println("___");
         }
         Integer c=1;
         System.out.println(c);
@@ -52,10 +59,57 @@ public class Test{
         list1.add("b");
         t(1,list1.toArray());
 
+        System.out.println(Thread.currentThread().getName());
+
+
+        HashSet hashSet=new HashSet();
+       boolean i= hashSet.add("3");
+
+
+       Vector vector=new Vector();
+       vector.add("4");
+
+       TreeSet treeSet=new TreeSet();
+       treeSet.add("1");
+
+       LinkedHashSet linkedHashSet=new LinkedHashSet();
+       linkedHashSet.add("3");
+
+        File file=new File("/Users/fuzhongyu/Desktop/temporary_save_file/data/a");
+        try {
+            file.mkdir();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        Map<String,Integer> sMap=new HashMap<>();
+        sMap.put("a",9);
+        sMap.put("b",5);
+        sMap.put("c",7);
+        sMap.put("d",5);
+        sMap.put("e",1);
+        List<Map.Entry<String,Integer>> arList=new ArrayList<>(sMap.entrySet());
+        Collections.sort(arList, new Comparator<Map.Entry<String, Integer>>() {
+            @Override
+            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
+                return o2.getValue()-o1.getValue();
+            }
+        });
+//        for (Map.Entry<String,Integer> entry:arList){
+//            System.out.println(entry.getKey()+"   "+entry.getValue());
+//        }
+        System.out.println(Arrays.toString(arList.subList(0,3).toArray()));
 
     }
 
     public static void t(int a,Object... strings){}
+
+    abstract class t{
+          public abstract double a();
+    }
+
+
+
 }
 
 class Test1{

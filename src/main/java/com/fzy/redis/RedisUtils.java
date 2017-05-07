@@ -9,7 +9,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.*;
 
 /**
- * redis操作(未完)
+ * redis操作
  * Created by fuzhongyu on 2017/3/19.
  */
 public class RedisUtils {
