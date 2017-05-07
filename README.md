@@ -23,6 +23,9 @@
       │  └──test_file                //写入，读出的测试文件
       │
       ├──mix_block             //混合板块（杂）
+      │   │
+      │   ├──map_know             //map排序，key为对象重新equels和hashcode
+      │   │
       │   ├──object_init             //对象初始化顺序
       │   │     ├──child_parent_init          //初始化过程
       │   │     └──variable_init              //变量初始化过程
