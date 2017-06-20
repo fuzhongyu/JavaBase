@@ -32,7 +32,9 @@
       │   │     ├──child_parent_init          //初始化过程
       │   │     └──variable_init              //变量初始化过程
       │   │
-      │   └──sort_algorithm          //排序算法
+      │   ├──sort_algorithm          //排序算法
+      │   │
+      │   └──xml            //xml解析
       │
       ├──proxy                 //代理
       │   ├──dynamic_proxy           //动态代理

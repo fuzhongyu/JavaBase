@@ -2,125 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbbd2417-4ed3-4db7-84f2-5dac176162ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/collect/MobileUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/map_know/MapObjectTrans.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/xml/XmlUtil_dom4j.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/thread/thread_normal_method/IsAliveMethod.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/Map/MapObjectKey.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/Map/MapSort$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/Map/MapSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/Map/MyObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/mix/TheadDataShare.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/mix/ThreadNotShare.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/mix/ThreadShare.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/mix/ThreadShareSyn.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyLearn_1.iml" afterPath="$PROJECT_DIR$/JavaBase.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/fzy/thread/mix/TheadDataShare.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/thread/thread_normal_method/TheadDataShare.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/example/HelloWorld.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/example/HelloWorld.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/example/Test$1.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/example/Test$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/example/Test$t.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/example/Test$t.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/example/Test.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/example/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/example/Test1.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/example/Test1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/io/InputStreamReader_OutputStreamWriter.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/io/InputStreamReader_OutputStreamWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/io/InputStream_OutputStream.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/io/InputStream_OutputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/io/Write_Reader.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/io/Write_Reader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/object_init/child_parent_init/ChildTest.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/object_init/child_parent_init/ChildTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/object_init/child_parent_init/ParentTest.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/object_init/child_parent_init/ParentTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/object_init/variable_init/StaticVariableInit.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/object_init/variable_init/StaticVariableInit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/object_init/variable_init/inSideClass.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/object_init/variable_init/inSideClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/sort_algorithm/BinaryInsertSort.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/sort_algorithm/BinaryInsertSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/sort_algorithm/BubbleSort.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/sort_algorithm/BubbleSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/sort_algorithm/ChooseSort.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/sort_algorithm/ChooseSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/sort_algorithm/InsertSort.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/sort_algorithm/InsertSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/sort_algorithm/QuickSort.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/sort_algorithm/QuickSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/sort_algorithm/Sort.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/sort_algorithm/Sort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/proxy/dynamic_proxy/DynamicProxyTest.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/proxy/dynamic_proxy/DynamicProxyTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/proxy/dynamic_proxy/ProxySubject.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/proxy/dynamic_proxy/ProxySubject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/proxy/dynamic_proxy/RealSubject.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/proxy/dynamic_proxy/RealSubject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/proxy/dynamic_proxy/Subject.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/proxy/dynamic_proxy/Subject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/proxy/static_proxy/ProSubject.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/proxy/static_proxy/ProSubject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/proxy/static_proxy/RealSubject.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/proxy/static_proxy/RealSubject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/proxy/static_proxy/Subject.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/proxy/static_proxy/Subject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/redis/RedisEntity.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/redis/RedisEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/redis/RedisUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/redis/RedisUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/redis/User.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/redis/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/regular/RegularTest.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/regular/RegularTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/regular/UsuallyUseMatching.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/regular/UsuallyUseMatching.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/serializable/SerializableUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/serializable/SerializableUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/serializable/Test.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/serializable/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/serializable/UserSerializable.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/serializable/UserSerializable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/socket/multity_thread/Client.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/socket/multity_thread/Client.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/socket/multity_thread/Server.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/socket/multity_thread/Server.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/socket/multity_thread/ServerThread.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/socket/multity_thread/ServerThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/socket/multity_thread/Test$1.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/socket/multity_thread/Test$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/socket/multity_thread/Test$2.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/socket/multity_thread/Test$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/socket/multity_thread/Test$3.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/socket/multity_thread/Test$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/socket/multity_thread/Test.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/socket/multity_thread/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/socket/single_thread/Client.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/socket/single_thread/Client.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/socket/single_thread/Server.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/socket/single_thread/Server.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/socket/single_thread/Test$1.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/socket/single_thread/Test$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/socket/single_thread/Test$2.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/socket/single_thread/Test$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/socket/single_thread/Test.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/socket/single_thread/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/Ball.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/Ball.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BallComponent.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BallComponent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BallRunnable.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BallRunnable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/Bounce$1.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/Bounce$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/Bounce.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/Bounce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BounceFrame$1.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BounceFrame$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BounceFrame$2.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BounceFrame$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BounceFrame.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BounceFrame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BounceFrameRunable$1.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BounceFrameRunable$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BounceFrameRunable$2.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BounceFrameRunable$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BounceFrameRunable.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BounceFrameRunable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BounceThread$1.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BounceThread$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BounceThread.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/ball_jump_example/BounceThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/single_ton/LazyBonesMode.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/single_ton/LazyBonesMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/single_ton/LazyBonesOptimizationMode$1.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/single_ton/LazyBonesOptimizationMode$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/single_ton/LazyBonesOptimizationMode$cinSideClass.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/single_ton/LazyBonesOptimizationMode$cinSideClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/single_ton/LazyBonesOptimizationMode.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/single_ton/LazyBonesOptimizationMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/single_ton/StarveMode.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/single_ton/StarveMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_callable/CallableTest.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_callable/CallableTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_callable/MatchCounter.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_callable/MatchCounter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_normal_method/InterputMethod.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_normal_method/InterputMethod.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_normal_method/ThreadEntity.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_normal_method/ThreadEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_normal_method/ThreadProperty.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_normal_method/ThreadProperty.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_pool/ExcutorProcessPool.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_pool/ExcutorProcessPool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_pool/ExecutorServiceFactory$1.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_pool/ExecutorServiceFactory$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_pool/ExecutorServiceFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_pool/ExecutorServiceFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_pool/Test$ExcuteTask1.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_pool/Test$ExcuteTask1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_pool/Test$ExcuteTask2.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_pool/Test$ExcuteTask2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_pool/Test.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_pool/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/Bank.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/Bank.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/InsideTest.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/InsideTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$1.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$10.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$11.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$12.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$13.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$2.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$3.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$4.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$5.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$6.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$7.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$8.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$9.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/SynchronizedSummarize.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/ThreadSynchronized.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/thread/thread_synchronized/ThreadSynchronized.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/MyLearn_1_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/MyLearn_1_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzy/example/Test.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/example/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/map_know/MapObjectKey.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/map_know/MapObjectKey.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/map_know/MapSort.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/map_know/MapSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzy/thread/thread_normal_method/InterputMethod.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/thread/thread_normal_method/InterputMethod.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -140,25 +22,19 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/example/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
-              <caret line="107" column="68" lean-forward="false" selection-start-line="107" selection-start-column="68" selection-end-line="107" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#3605#3606#0" expanded="false" />
-                <element signature="e#3632#3633#0" expanded="false" />
-                <element signature="e#3672#3673#0" expanded="false" />
-                <element signature="e#3704#3705#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="659">
+              <caret line="123" column="6" lean-forward="false" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <first_editor relative-caret-position="224">
+                <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -176,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XmlUtil_dom4j.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="XmlUtil_dom4j.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/xml/XmlUtil_dom4j.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -414,6 +290,116 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mixed_block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fzy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mixed_block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fzy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fzy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1010,7 +996,7 @@
       <workItem from="1497880594051" duration="919000" />
       <workItem from="1497882133078" duration="73000" />
       <workItem from="1497960722581" duration="394000" />
-      <workItem from="1497961316933" duration="94000" />
+      <workItem from="1497961316933" duration="355000" />
     </task>
     <task id="LOCAL-00001">
       <created>1491234229029</created>
@@ -1055,7 +1041,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100147000" />
+    <option name="totallyTimeSpent" value="100408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1447,6 +1433,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="2221" column="18" lean-forward="false" selection-start-line="2221" selection-start-column="18" selection-end-line="2221" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1454,6 +1441,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1461,31 +1449,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-945">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/example/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="107" column="68" lean-forward="false" selection-start-line="107" selection-start-column="68" selection-end-line="107" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3605#3606#0" expanded="false" />
-            <element signature="e#3632#3633#0" expanded="false" />
-            <element signature="e#3672#3673#0" expanded="false" />
-            <element signature="e#3704#3705#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-            <folding />
-          </first_editor>
-          <second_editor />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1502,6 +1466,25 @@
         <state relative-caret-position="135">
           <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/example/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="123" column="6" lean-forward="false" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="224">
+            <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
