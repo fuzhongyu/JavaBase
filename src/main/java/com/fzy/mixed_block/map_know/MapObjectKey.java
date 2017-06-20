@@ -1,4 +1,4 @@
-package com.fzy.mixed_block.Map;
+package com.fzy.mixed_block.map_know;
 
 import org.junit.Test;
 

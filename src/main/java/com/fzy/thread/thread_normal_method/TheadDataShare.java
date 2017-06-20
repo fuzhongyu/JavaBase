@@ -1,4 +1,4 @@
-package com.fzy.thread.mix;
+package com.fzy.thread.thread_normal_method;
 
 import org.junit.Test;
 
@@ -40,43 +40,42 @@ public class TheadDataShare {
         thread_D.start();
         thread_E.start();
     }
-}
 
 
-class ThreadNotShare extends Thread{
-    private int count=5;
+    private class ThreadNotShare extends Thread{
+        private int count=5;
 
-    public ThreadNotShare(String name){
-        this.setName(name);
-    }
+        public ThreadNotShare(String name){
+            this.setName(name);
+        }
 
-    @Override
-    public void run(){
-        while (count>0){
-            count--;
-            System.out.println("thread_not_share:由"+this.currentThread().getName()+"计算,count="+count);
+        @Override
+        public void run(){
+            while (count>0){
+                count--;
+                System.out.println("thread_not_share:由"+this.currentThread().getName()+"计算,count="+count);
+            }
         }
     }
-}
 
-class ThreadShare extends Thread{
-    private int count=5;
+    private class ThreadShare extends Thread{
+        private int count=5;
 
-    @Override
-    public void run(){
-        count--;
-        System.out.println("thread_share:由"+this.currentThread().getName()+"计算,count="+count);
-    }
-}
-
-
-class ThreadShareSyn extends Thread{
-    private int count=5;
-
-    @Override
-    public synchronized void run(){
-        count--;
-        System.out.println("thread_share:由" + this.currentThread().getName() + "计算,count=" + count);
+        @Override
+        public void run(){
+            count--;
+            System.out.println("thread_share:由"+this.currentThread().getName()+"计算,count="+count);
+        }
     }
 
+
+    private class ThreadShareSyn extends Thread {
+        private int count = 5;
+
+        @Override
+        public synchronized void run() {
+            count--;
+            System.out.println("thread_share:由" + this.currentThread().getName() + "计算,count=" + count);
+        }
+    }
 }

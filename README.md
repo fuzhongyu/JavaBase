@@ -1,4 +1,4 @@
-# MyLearn_1
+# JavaBase
 
 
  **此项目供本人学习使用：**
@@ -23,6 +23,8 @@
       │  └──test_file                //写入，读出的测试文件
       │
       ├──mix_block             //混合板块（杂）
+      │   │
+      │   ├──collect            //平时用到的工具类收藏
       │   │
       │   ├──map_know             //map排序，key为对象重新equels和hashcode
       │   │
@@ -51,7 +53,7 @@
       │    ├──ball_jump_example      //小球运动案例
       │    ├──single_ton             //单例（懒汉、饿汉、优化的饿汉）
       │    ├──thread_callable        //callable接口实现线程（可返回值）
-      │    ├──thread_normal_method   //线程常用方法（线程中断，线程优先级）
+      │    ├──thread_normal_method   //线程常用方法
       │    ├──thread_pool            //线程池
       │    └──thread_synchronize     //线程同步方法
       │

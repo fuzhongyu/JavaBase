@@ -100,6 +100,15 @@ public class Test{
 //        }
         System.out.println(Arrays.toString(arList.subList(0,3).toArray()));
 
+        Set<String> set=new HashSet<>();
+
+
+
+        String stri="{\"conservative\":[{\"scoreList\":[{\"courseType\":0}]},{\"scoreList\":[\"courseType\":1},{\"courseType\":0}]}";
+        stri=stri.replaceAll("\"courseType\":0","\"courseType\":#");
+        stri=stri.replaceAll("\"courseType\":1","\"courseType\":0");
+        stri=stri.replaceAll("\"courseType\":#","\"courseType\":1");
+        System.out.println(stri);
     }
 
     public static void t(int a,Object... strings){}
