@@ -109,12 +109,23 @@ public class Test{
         stri=stri.replaceAll("\"courseType\":1","\"courseType\":0");
         stri=stri.replaceAll("\"courseType\":#","\"courseType\":1");
         System.out.println(stri);
+
+
+        System.out.println("&&&&&"+reverse("12"));
     }
 
     public static void t(int a,Object... strings){}
 
     abstract class t{
           public abstract double a();
+    }
+
+
+    public static String reverse(String originStr){
+        if(originStr==null||originStr.length()<=0){
+            return originStr;
+        }
+        return reverse(originStr.substring(1))+originStr.charAt(0);
     }
 
 
