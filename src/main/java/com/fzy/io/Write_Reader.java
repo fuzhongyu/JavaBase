@@ -13,7 +13,7 @@ public class Write_Reader {
 
     @Test
     public void test() {
-        String filepath="src/io/test_file/myfile.txt";
+        String filepath="src/main/java/com/fzy/io/test_file/myfile.txt";
         String info="write info to myfile! 写入信息到myfile文件";
         //写入信息"write info to myfile"到myfile.txt
         writeString2File(info,filepath);
