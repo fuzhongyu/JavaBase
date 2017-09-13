@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbbd2417-4ed3-4db7-84f2-5dac176162ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/example/SubClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/example/SuperClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/example/Te.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/example/HelloWorld.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/example/HelloWorld.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/io/InputStreamReader_OutputStreamWriter.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/io/InputStreamReader_OutputStreamWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/io/InputStream_OutputStream.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/io/InputStream_OutputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/io/Write_Reader.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/io/Write_Reader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/object_init/child_parent_init/ChildTest.class" afterPath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/object_init/child_parent_init/ChildTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzy/example/HelloWorld.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/example/HelloWorld.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzy/io/InputStreamReader_OutputStreamWriter.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/io/InputStreamReader_OutputStreamWriter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzy/io/InputStream_OutputStream.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/io/InputStream_OutputStream.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzy/io/Write_Reader.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/io/Write_Reader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzy/io/test_file/myfile.txt" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/io/test_file/myfile.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/object_init/child_parent_init/ChildTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/object_init/child_parent_init/ChildTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -74,8 +60,8 @@
       <file leaf-file-name="ChildTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/object_init/child_parent_init/ChildTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -882,7 +868,7 @@
       <workItem from="1505109041903" duration="36000" />
       <workItem from="1505121817514" duration="538000" />
       <workItem from="1505179515029" duration="7031000" />
-      <workItem from="1505262218236" duration="3279000" />
+      <workItem from="1505262218236" duration="3519000" />
     </task>
     <task id="LOCAL-00001">
       <created>1491234229029</created>
@@ -927,7 +913,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142030000" />
+    <option name="totallyTimeSpent" value="142270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1321,8 +1307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/object_init/child_parent_init/ChildTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding />
         </state>
       </provider>

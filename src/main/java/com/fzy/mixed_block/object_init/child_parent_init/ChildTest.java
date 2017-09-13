@@ -22,6 +22,7 @@ package com.fzy.mixed_block.object_init.child_parent_init;
 public class ChildTest extends ParentTest{
 
     {
+        //注： 语句块中只能访问到定义在语句块之前的变量，定义在它之后的变量语句块可以赋值，但不能访问
         c3="子类--变量2";
         c4="子类--变量c4--代码块";
     }
