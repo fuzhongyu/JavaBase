@@ -28,7 +28,7 @@ public class Server{
 
     public void service() throws IOException {
         while (true){
-            //调用accept()方法开始监听，等待客户端的连接
+            //调用accept()方法开始监听，等待客户端的连接(在客户端请求过来前都是阻塞的)
             Socket socket=serverSocket.accept();
             new Thread(new ServerThread(socket)).start();
         }
@@ -49,6 +49,11 @@ class ServerThread implements Runnable{
 
     @Override
     public void run(){
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         System.out.println("===有新的连接请求：ip:"+socket.getInetAddress()+"  port:"+socket.getPort()+"=====");
         //获取输入流，并读取客户端信息
         InputStreamReader reader= null;
