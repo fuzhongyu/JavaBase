@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="ewifiV2@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="ewifiV2">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="bigscreen"/>
+    <schema id="4" parent="1" name="dreamshow"/>
+    <schema id="5" parent="1" name="easylife"/>
+    <schema id="6" parent="1" name="information_schema"/>
+    <schema id="7" parent="1" name="MyLearn_3"/>
+    <schema id="8" parent="1" name="MyLearn_4"/>
+    <schema id="9" parent="1" name="mysql"/>
+    <schema id="10" parent="1" name="mytest"/>
+    <schema id="11" parent="1" name="performance_schema"/>
+    <schema id="12" parent="1" name="portal_server"/>
+    <schema id="13" parent="1" name="radius"/>
+    <schema id="14" parent="1" name="sys"/>
+    <schema id="15" parent="1" name="taozhiyuan_new"/>
+    <schema id="16" parent="1" name="taozhiyuan_new_test"/>
+    <schema id="17" parent="1" name="wlan_portal"/>
+    <table id="18" parent="2" name="SYSTEM_BUSINESS"/>
+    <table id="19" parent="2" name="SYSTEM_DICTIONARY"/>
+    <table id="20" parent="2" name="SYSTEM_LOG"/>
+    <table id="21" parent="2" name="SYSTEM_PERMISSION"/>
+    <table id="22" parent="2" name="SYSTEM_ROLE"/>
+    <table id="23" parent="2" name="SYSTEM_ROLE_PERMISSION"/>
+    <table id="24" parent="2" name="SYSTEM_USER"/>
+    <table id="25" parent="2" name="SYSTEM_USER_ROLE"/>
+    <column id="26" parent="18" name="ID">
+      <Position>1</Position>
+      <DataType>bigint(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="18" name="BUSINESS_NAME">
+      <Position>2</Position>
+      <Comment>商家名称</Comment>
+      <DataType>varchar(128)|0</DataType>
+    </column>
+    <column id="28" parent="18" name="BUSINESS_TREE_ID">
+      <Position>3</Position>
+      <Comment>商家树节点</Comment>
+      <DataType>varchar(128)|0</DataType>
+    </column>
+    <column id="29" parent="18" name="PARENT_ID">
+      <Position>4</Position>
+      <Comment>父商家树节点</Comment>
+      <DataType>varchar(128)|0</DataType>
+    </column>
+    <column id="30" parent="18" name="CONTACT_NAME">
+      <Position>5</Position>
+      <Comment>联系人</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="31" parent="18" name="CONTACT_TELE">
+      <Position>6</Position>
+      <Comment>联系人手机号</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="32" parent="18" name="BUSINESS_ADDRESS">
+      <Position>7</Position>
+      <Comment>商家地址</Comment>
+      <DataType>varchar(256)|0</DataType>
+    </column>
+    <column id="33" parent="18" name="BUSINESS_NASID">
+      <Position>8</Position>
+      <Comment>商家NASID</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="34" parent="18" name="BUSINESS_TYPE">
+      <Position>9</Position>
+      <Comment>商家类型</Comment>
+      <DataType>tinyint(4)|0</DataType>
+    </column>
+    <column id="35" parent="18" name="BUSINESS_ENABLE_LOGIN">
+      <Position>10</Position>
+      <Comment>商家是否允许登录</Comment>
+      <DataType>bit(1)|0</DataType>
+      <DefaultExpression>b&apos;1&apos;</DefaultExpression>
+    </column>
+    <column id="36" parent="18" name="CREATE_TIME">
+      <Position>11</Position>
+      <Comment>创建</Comment>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="37" parent="18" name="UPDATE_TIME">
+      <Position>12</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="38" parent="18" name="DELETE_FLAG">
+      <Position>13</Position>
+      <Comment>0-正常，1-删除</Comment>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="39" parent="18" name="REMARKS">
+      <Position>14</Position>
+      <DataType>varchar(512)|0</DataType>
+    </column>
+    <index id="40" parent="18" name="IDX_BUSINESS_NAME">
+      <ColNames>BUSINESS_NAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="41" parent="18" name="IDX_BUSINESS_TREE_ID">
+      <ColNames>BUSINESS_TREE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="42" parent="18" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="43" parent="18" name="IDX_BUSINESS_NAME">
+      <ColNames>BUSINESS_NAME</ColNames>
+      <UnderlyingIndexName>IDX_BUSINESS_NAME</UnderlyingIndexName>
+    </key>
+    <key id="44" parent="18" name="IDX_BUSINESS_TREE_ID">
+      <ColNames>BUSINESS_TREE_ID</ColNames>
+      <UnderlyingIndexName>IDX_BUSINESS_TREE_ID</UnderlyingIndexName>
+    </key>
+    <column id="45" parent="19" name="ID">
+      <Position>1</Position>
+      <DataType>bigint(20) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="46" parent="19" name="TABLE_NAME">
+      <Position>2</Position>
+      <Comment>表名</Comment>
+      <DataType>varchar(128)|0</DataType>
+    </column>
+    <column id="47" parent="19" name="FIELD">
+      <Position>3</Position>
+      <Comment>字段</Comment>
+      <DataType>varchar(128)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="48" parent="19" name="LABEL">
+      <Position>4</Position>
+      <Comment>字段名</Comment>
+      <DataType>varchar(256)|0</DataType>
+    </column>
+    <column id="49" parent="19" name="VALUE">
+      <Position>5</Position>
+      <Comment>字段值</Comment>
+      <DataType>varchar(128)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="50" parent="19" name="DATA_TYPE">
+      <Position>6</Position>
+      <Comment>数据类型</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="51" parent="19" name="CREATE_TIME">
+      <Position>7</Position>
+      <Comment>创建时间</Comment>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="19" name="UPDATE_TIME">
+      <Position>8</Position>
+      <Comment>最新更新时间</Comment>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="53" parent="19" name="REMARKS">
+      <Position>9</Position>
+      <Comment>备注</Comment>
+      <DataType>varchar(256)|0</DataType>
+    </column>
+    <column id="54" parent="19" name="DELETE_FLAG">
+      <Position>10</Position>
+      <Comment>删除标记:0-正常，1-删除</Comment>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+    </column>
+    <key id="55" parent="19" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="56" parent="20" name="ID">
+      <Position>1</Position>
+      <DataType>bigint(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="20" name="SYSTEM_NAME">
+      <Position>2</Position>
+      <Comment>系统名称</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="58" parent="20" name="SYSTEM_IP">
+      <Position>3</Position>
+      <Comment>系统IP</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="59" parent="20" name="MODULE_NAME">
+      <Position>4</Position>
+      <DataType>varchar(64)|0</DataType>
+    </column>
+    <column id="60" parent="20" name="USER_ID">
+      <Position>5</Position>
+      <Comment>用户ID</Comment>
+      <DataType>bigint(11)|0</DataType>
+    </column>
+    <column id="61" parent="20" name="USERNAME">
+      <Position>6</Position>
+      <Comment>用户名</Comment>
+      <DataType>varchar(64)|0</DataType>
+    </column>
+    <column id="62" parent="20" name="USER_IP">
+      <Position>7</Position>
+      <Comment>用户IP</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="63" parent="20" name="USER_BUSINESS_ID">
+      <Position>8</Position>
+      <Comment>用户商家ID</Comment>
+      <DataType>bigint(11)|0</DataType>
+    </column>
+    <column id="64" parent="20" name="USER_BUSINESS_NAME">
+      <Position>9</Position>
+      <Comment>用户商家名称</Comment>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="65" parent="20" name="OPERATION_TREE_ID">
+      <Position>10</Position>
+      <Comment>权限树ID</Comment>
+      <DataType>varchar(128)|0</DataType>
+    </column>
+    <column id="66" parent="20" name="OPERATION_URL">
+      <Position>11</Position>
+      <Comment>操作URL</Comment>
+      <DataType>varchar(2048)|0</DataType>
+    </column>
+    <column id="67" parent="20" name="OPERATION_TYPE">
+      <Position>12</Position>
+      <Comment>操作类型</Comment>
+      <DataType>varchar(10)|0</DataType>
+    </column>
+    <column id="68" parent="20" name="OPERATION_RESULT_MSG">
+      <Position>13</Position>
+      <Comment>操作结果</Comment>
+      <DataType>varchar(1024)|0</DataType>
+    </column>
+    <column id="69" parent="20" name="OPERATION_RESULT_CODE">
+      <Position>14</Position>
+      <Comment>操作结果CODE</Comment>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="70" parent="20" name="CREATE_TIME">
+      <Position>15</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <key id="71" parent="20" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="72" parent="21" name="ID">
+      <Position>1</Position>
+      <DataType>bigint(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="73" parent="21" name="PERMISSION_NAME">
+      <Position>2</Position>
+      <Comment>权限名</Comment>
+      <DataType>varchar(128)|0</DataType>
+    </column>
+    <column id="74" parent="21" name="PERMISSION_TREE_ID">
+      <Position>3</Position>
+      <Comment>权限树ID</Comment>
+      <DataType>varchar(128)|0</DataType>
+    </column>
+    <column id="75" parent="21" name="PERMISSION_SYSTEM">
+      <Position>4</Position>
+      <Comment>权限所属系统</Comment>
+      <DataType>varchar(128)|0</DataType>
+    </column>
+    <column id="76" parent="21" name="PERMISSION_URL">
+      <Position>5</Position>
+      <Comment>权限请求地址</Comment>
+      <DataType>varchar(512)|0</DataType>
+    </column>
+    <column id="77" parent="21" name="PERMISSION_ENABLE">
+      <Position>6</Position>
+      <Comment>权限是否开启</Comment>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>b&apos;1&apos;</DefaultExpression>
+    </column>
+    <column id="78" parent="21" name="PERMISSION_TYPE">
+      <Position>7</Position>
+      <Comment>权限类型：1-增，2-删，3-改，4-查</Comment>
+      <DataType>tinyint(4)|0</DataType>
+    </column>
+    <column id="79" parent="21" name="ADMIN_PERMISSION">
+      <Position>8</Position>
+      <Comment>超级管理权限</Comment>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="80" parent="21" name="CREATE_TIME">
+      <Position>9</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="81" parent="21" name="UPDATE_TIME">
+      <Position>10</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="82" parent="21" name="DELETE_FLAG">
+      <Position>11</Position>
+      <Comment>0-正常，1-删除</Comment>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="83" parent="21" name="REMARKS">
+      <Position>12</Position>
+      <DataType>varchar(512)|0</DataType>
+    </column>
+    <index id="84" parent="21" name="IDEX_PERMISSION_NAME">
+      <ColNames>PERMISSION_NAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="85" parent="21" name="IDEX_PERMISSION_URL">
+      <ColNames>PERMISSION_URL</ColNames>
+    </index>
+    <index id="86" parent="21" name="IDX_PERMISSION_TREE_ID">
+      <ColNames>PERMISSION_TREE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="87" parent="21" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="88" parent="21" name="IDEX_PERMISSION_NAME">
+      <ColNames>PERMISSION_NAME</ColNames>
+      <UnderlyingIndexName>IDEX_PERMISSION_NAME</UnderlyingIndexName>
+    </key>
+    <key id="89" parent="21" name="IDX_PERMISSION_TREE_ID">
+      <ColNames>PERMISSION_TREE_ID</ColNames>
+      <UnderlyingIndexName>IDX_PERMISSION_TREE_ID</UnderlyingIndexName>
+    </key>
+    <column id="90" parent="22" name="ID">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="91" parent="22" name="ROLE_NAME">
+      <Position>2</Position>
+      <Comment>角色名</Comment>
+      <DataType>varchar(128)|0</DataType>
+    </column>
+    <column id="92" parent="22" name="ROLE_TREE_ID">
+      <Position>3</Position>
+      <Comment>角色数ID</Comment>
+      <DataType>varchar(128)|0</DataType>
+    </column>
+    <column id="93" parent="22" name="BUSINESS_ID">
+      <Position>4</Position>
+      <Comment>商家ID</Comment>
+      <DataType>bigint(11)|0</DataType>
+    </column>
+    <column id="94" parent="22" name="CREATE_TIME">
+      <Position>5</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="95" parent="22" name="UPDATE_TIME">
+      <Position>6</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="96" parent="22" name="DELETE_FLAG">
+      <Position>7</Position>
+      <Comment>0-正常，1-删除</Comment>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="97" parent="22" name="REMARKS">
+      <Position>8</Position>
+      <DataType>varchar(512)|0</DataType>
+    </column>
+    <index id="98" parent="22" name="IDX_BUSINESS">
+      <ColNames>BUSINESS_ID</ColNames>
+    </index>
+    <index id="99" parent="22" name="IDX_ROLE_NAME">
+      <ColNames>ROLE_NAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="100" parent="22" name="IDX_ROLE_TREE_ID">
+      <ColNames>ROLE_TREE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="101" parent="22" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="102" parent="22" name="IDX_ROLE_NAME">
+      <ColNames>ROLE_NAME</ColNames>
+      <UnderlyingIndexName>IDX_ROLE_NAME</UnderlyingIndexName>
+    </key>
+    <key id="103" parent="22" name="IDX_ROLE_TREE_ID">
+      <ColNames>ROLE_TREE_ID</ColNames>
+      <UnderlyingIndexName>IDX_ROLE_TREE_ID</UnderlyingIndexName>
+    </key>
+    <column id="104" parent="23" name="ROLE_ID">
+      <Position>1</Position>
+      <DataType>bigint(11)|0</DataType>
+    </column>
+    <column id="105" parent="23" name="PERMISSION_ID">
+      <Position>2</Position>
+      <DataType>bigint(11)|0</DataType>
+    </column>
+    <column id="106" parent="23" name="ROLE_PERMISSION_ENABLE">
+      <Position>3</Position>
+      <DataType>bit(1)|0</DataType>
+    </column>
+    <column id="107" parent="23" name="CREATE_TIME">
+      <Position>4</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="108" parent="23" name="UPDATE_TIME">
+      <Position>5</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="109" parent="23" name="ID">
+      <Position>6</Position>
+      <DataType>bigint(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="110" parent="23" name="DELETE_FLAG">
+      <Position>7</Position>
+      <Comment>0-正常，1-删除</Comment>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+    </column>
+    <index id="111" parent="23" name="IDX_ PERMISSION_ID">
+      <ColNames>PERMISSION_ID</ColNames>
+    </index>
+    <index id="112" parent="23" name="IDX_ ROLE_ID">
+      <ColNames>ROLE_ID</ColNames>
+    </index>
+    <key id="113" parent="23" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="114" parent="24" name="USERNAME">
+      <Position>1</Position>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="115" parent="24" name="PASSWORD">
+      <Position>2</Position>
+      <DataType>varchar(128)|0</DataType>
+    </column>
+    <column id="116" parent="24" name="CONTACT_NAME">
+      <Position>3</Position>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="117" parent="24" name="CONTACT_TELE">
+      <Position>4</Position>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <column id="118" parent="24" name="CONTACT_EMAIL">
+      <Position>5</Position>
+      <DataType>varchar(64)|0</DataType>
+    </column>
+    <column id="119" parent="24" name="BUSINESS_ID">
+      <Position>6</Position>
+      <DataType>bigint(11)|0</DataType>
+    </column>
+    <column id="120" parent="24" name="USER_STATUS">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="121" parent="24" name="CREATE_TIME">
+      <Position>8</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="122" parent="24" name="UPDATE_TIME">
+      <Position>9</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="123" parent="24" name="SALT">
+      <Position>10</Position>
+      <DataType>varchar(128)|0</DataType>
+    </column>
+    <column id="124" parent="24" name="ID">
+      <Position>11</Position>
+      <DataType>bigint(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="125" parent="24" name="BUSINESS_TREE_ID">
+      <Position>12</Position>
+      <DataType>varchar(128)|0</DataType>
+    </column>
+    <column id="126" parent="24" name="DELETE_FLAG">
+      <Position>13</Position>
+      <Comment>0-正常，1-删除</Comment>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+    </column>
+    <index id="127" parent="24" name="IDX_CONTACT_EMAIL">
+      <ColNames>CONTACT_EMAIL</ColNames>
+    </index>
+    <index id="128" parent="24" name="IDX_CONTACT_NAME">
+      <ColNames>CONTACT_NAME</ColNames>
+    </index>
+    <index id="129" parent="24" name="IDX_CONTACT_TELE">
+      <ColNames>CONTACT_TELE</ColNames>
+    </index>
+    <index id="130" parent="24" name="IDX_USER_NAME">
+      <ColNames>USERNAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="131" parent="24" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="132" parent="24" name="IDX_USER_NAME">
+      <ColNames>USERNAME</ColNames>
+      <UnderlyingIndexName>IDX_USER_NAME</UnderlyingIndexName>
+    </key>
+    <column id="133" parent="25" name="USER_ID">
+      <Position>1</Position>
+      <DataType>bigint(11)|0</DataType>
+    </column>
+    <column id="134" parent="25" name="ROLE_ID">
+      <Position>2</Position>
+      <DataType>bigint(11)|0</DataType>
+    </column>
+    <column id="135" parent="25" name="USER_ROLE_ENABLE">
+      <Position>3</Position>
+      <DataType>bit(1)|0</DataType>
+    </column>
+    <column id="136" parent="25" name="CREATE_TIME">
+      <Position>4</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="137" parent="25" name="UPDATE_TIME">
+      <Position>5</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="138" parent="25" name="ID">
+      <Position>6</Position>
+      <DataType>bigint(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="139" parent="25" name="DELETE_FLAG">
+      <Position>7</Position>
+      <Comment>0-正常，1-删除</Comment>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+    </column>
+    <index id="140" parent="25" name="IDX_ROLE_ID">
+      <ColNames>USER_ID</ColNames>
+    </index>
+    <index id="141" parent="25" name="IDX_USER_ID">
+      <ColNames>ROLE_ID</ColNames>
+    </index>
+    <key id="142" parent="25" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

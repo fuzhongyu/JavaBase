@@ -23,6 +23,7 @@ public class StaticVariableInit {
     public static void main(String[] arg) {
         System.out.println("-->a:"+StaticVariableInit.a+"   b:"+StaticVariableInit.b);  // 输出: a:0  b:1
     }
+
 }
 
 class inSideClass {

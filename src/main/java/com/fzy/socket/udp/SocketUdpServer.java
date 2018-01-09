@@ -63,10 +63,12 @@ public class SocketUdpServer {
             System.out.println("===有新的连接请求：ip:"+packet.getAddress()+"  port:"+packet.getPort()+"=====");
             Object resultData=null;
             if(packet.getData()!=null){
-                resultData=method.service(SerializableUtils.unserialize(packet.getData()));
+//                resultData=method.service(SerializableUtils.unserialize(packet.getData()));
+                resultData=method.service(new String(packet.getData()));
             }
             if(resultData!=null){
-                byte[] bytes=SerializableUtils.serialize(resultData);
+//                byte[] bytes=SerializableUtils.serialize(resultData);
+                byte[] bytes=String.valueOf(resultData).getBytes();
                 DatagramPacket packetReturn=new DatagramPacket(bytes,bytes.length);
                 packetReturn.setSocketAddress(packet.getSocketAddress());
                 try {

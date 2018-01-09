@@ -20,6 +20,9 @@ public class MapSort {
         map.put("d",2);
         map.put("e",-1);
         System.out.println(Arrays.toString(sortMap(map).toArray()));
+        Character a='a';
+        Character b='b';
+        System.out.println(b-a);
     }
 
     /**
@@ -42,5 +45,6 @@ public class MapSort {
 
         return list;
     }
+
 
 }

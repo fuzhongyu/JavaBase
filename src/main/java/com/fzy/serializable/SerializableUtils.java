@@ -165,9 +165,12 @@ public class SerializableUtils {
         List list=new ArrayList<>();
         list.add(new UserSerializable("fzy1",0,25));
         list.add(new UserSerializable("fzy2",1,20));
-        byte[] bytes=serializeList(list);
-        List list1=unSerializeList(bytes);
-        System.out.println(((UserSerializable)list1.get(0)).getName());
+//        byte[] bytes=serializeList(list);
+//        List list1=unSerializeList(bytes);
+//        System.out.println(((UserSerializable)list1.get(0)).getName());
+        byte[] bytes=serialize(list);
+        List list1= (List) unserialize(bytes);
+        System.out.println(((UserSerializable)list1.get(1)).getName());
     }
 }
 

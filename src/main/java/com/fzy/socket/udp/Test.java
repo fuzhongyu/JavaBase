@@ -1,5 +1,7 @@
 package com.fzy.socket.udp;
 
+import com.fzy.flume.SyslogSendToFluem;
+
 /**
  * udp测试类
  * @author fuzhongyu
@@ -27,20 +29,48 @@ public class Test {
             e.printStackTrace();
         }
 
-
+//        new Thread("p"){
+//            @Override
+//            public void run(){
+//                int i=0;
+//                while (true){
+//                    try {
+//                        Thread.sleep(10);
+//                    } catch (InterruptedException e) {
+//                        e.printStackTrace();
+//                    }
+//                    System.out.println(i++);
+//                    String str="Thread<a>---->"+i;
+//                    SyslogSendToFluem.sendLog("127.0.0.1",12345,str,6);
+//                }
+//            }
+//
+//
+//        }.start();
+//
+//
         new Thread("b"){
             public void run(){
-               Object obj= SocketUdpClient.sendData(ip,port,"测试一下1");
-                System.out.println("----"+obj);
-            }
-        }.start();
+                int i=0;
+                while (true){
+                    try {
+                        Thread.sleep(10);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    Object obj= SocketUdpClient.sendData(ip,port,"测试一下1");
+                    System.out.println("----"+obj);
+                }
 
-        new Thread("c"){
-            public void run(){
-               Object obj= SocketUdpClient.sendData(ip,port,"测试一下2");
-                System.out.println(">>>"+obj);
             }
         }.start();
+//
+//        new Thread("c"){
+//            public void run(){
+//               Object obj= SocketUdpClient.sendData(ip,port,"测试一下2");
+//                System.out.println(">>>"+obj);
+//            }
+//        }.start();
     }
 
 
