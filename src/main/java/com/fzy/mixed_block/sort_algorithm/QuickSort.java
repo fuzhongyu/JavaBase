@@ -4,6 +4,7 @@ import org.junit.Test;
 
 /**
  * 快速排序(从小到大)
+ * 时间复杂度: O(nlog(n))
  * Created by fuzhongyu on 2017/3/7.
  */
 public class QuickSort extends Sort{

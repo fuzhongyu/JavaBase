@@ -48,6 +48,7 @@
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.0.1" />
           <element id="library" level="project" name="Maven: org.apache.mina:mina-core:2.0.4" />
           <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.10.3" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.18" />
         </element>
       </element>
       <element id="directory" name="META-INF">

@@ -5,5 +5,5 @@ package com.fzy.proxy.dynamic_proxy;
  */
 public interface Subject {
 
-    public void service();
+    void service();
 }

@@ -5,6 +5,7 @@ import org.junit.Test;
 
 /**
  * 冒泡排序(从小到大)
+ * 时间复杂度：O(n^2)
  * Created by fuzhongyu on 2017/3/7.
  */
 public class BubbleSort extends Sort{

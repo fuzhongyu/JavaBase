@@ -12,7 +12,7 @@ public class Test {
 
     public static void main(String[] args) {
 
-        final int port=12345;
+        final int port=4444;
         final  String ip="127.0.0.1";
 
         //服务端udp启动
@@ -24,7 +24,7 @@ public class Test {
 
         //睡眠3秒，保证服务端udp完全启动
         try {
-            Thread.sleep(3000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -41,7 +41,7 @@ public class Test {
 //                    }
 //                    System.out.println(i++);
 //                    String str="Thread<a>---->"+i;
-//                    SyslogSendToFluem.sendLog("127.0.0.1",12345,str,6);
+//                    SyslogSendToFluem.sendLog("127.0.0.1",4444,str,6);
 //                }
 //            }
 //
@@ -71,6 +71,7 @@ public class Test {
 //                System.out.println(">>>"+obj);
 //            }
 //        }.start();
+
     }
 
 

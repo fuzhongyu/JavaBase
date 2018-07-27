@@ -297,4 +297,5 @@ public class RegularTest {
         System.out.println("unRemberSonChar1:"+regularFind(str1,regEx1)); //匹配bbccdd
     }
 
+
 }

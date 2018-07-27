@@ -1,16 +1,12 @@
 package com.fzy.socket.udp;
 
 
-import com.fzy.serializable.SerializableUtils;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
-
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetSocketAddress;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * udp数据传输,客户端发送端
@@ -19,13 +15,6 @@ import java.util.Map;
  */
 public class SocketUdpClient {
 
-    /**
-     *  inetSocketAddressMap用来存储以创建的InetSocketAddress，如果该地址已存在直接在map中获取
-     */
-    private static Map<IpPortCls,InetSocketAddress> inetSocketAddressMap=new HashMap<>();
-
-
-    private static InetSocketAddress inetSocketAddress;
 
     /**
      * 客户端用udp方式发送数据
@@ -37,17 +26,9 @@ public class SocketUdpClient {
      */
     public static Object sendData(String ip,Integer port,Object data) {
 
-        IpPortCls ipPortCls=new IpPortCls(ip,port);
-        //设置远程服务端地址
-        if(inetSocketAddressMap.containsKey(ipPortCls)){
-            inetSocketAddress=inetSocketAddressMap.get(ipPortCls);
-        }else {
-            inetSocketAddress=new InetSocketAddress(ip,port);
-            inetSocketAddressMap.put(ipPortCls,inetSocketAddress);
-        }
         try {
             //设置远程服务端地址
-            inetSocketAddress=new InetSocketAddress(ip,port);
+            InetSocketAddress inetSocketAddress=new InetSocketAddress(ip,port);
             //创建传输层协议使用UDP发送和接收数据报的socket
             DatagramSocket socket=new DatagramSocket();
             //数据序列化
@@ -58,6 +39,7 @@ public class SocketUdpClient {
             packet.setSocketAddress(inetSocketAddress);
             //传输
             socket.send(packet);
+//            socket.setSoTimeout(2000);
             //接收服务端返回数据
             socket.receive(packet);
             if(packet.getData()!=null){
@@ -98,6 +80,10 @@ public class SocketUdpClient {
         public int hashCode() {
             return HashCodeBuilder.reflectionHashCode(this,"ip","port");
         }
+    }
+
+    public static void main(String[] args) {
+        sendData("192.168.81.75",1813,"aaaa");
     }
 
 

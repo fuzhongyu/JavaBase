@@ -28,6 +28,7 @@ public class SocketUdpServer {
         try {
             InetSocketAddress inetSocketAddress=new InetSocketAddress(serverPort);
             DatagramSocket datagramSocket=new DatagramSocket(inetSocketAddress);
+            datagramSocket.setReceiveBufferSize(100);
             while (true){
                 byte[] buf=new byte[1024*16];
                 DatagramPacket datagramPacket=new DatagramPacket(buf,buf.length);
@@ -72,6 +73,11 @@ public class SocketUdpServer {
                 DatagramPacket packetReturn=new DatagramPacket(bytes,bytes.length);
                 packetReturn.setSocketAddress(packet.getSocketAddress());
                 try {
+                    try {
+                        Thread.sleep(3000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                     socket.send(packetReturn);
                 } catch (IOException e) {
                     e.printStackTrace();

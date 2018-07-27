@@ -14,8 +14,24 @@ public class Sort {
      */
     public int[] fillValue(int[] arr){
         for(int i=0;i<arr.length;i++){
-            arr[i]= (int) Math.round(Math.random()*10+1);
+            arr[i]= (int) Math.round(Math.random()*arr.length*arr.length+1);
         }
+        return arr;
+    }
+
+
+    public int[] fillNotSameValue(int[] arr){
+        for (int i=0;i<arr.length;i++){
+            arr[i]=i+1;
+        }
+
+        for (int i=arr.length-1;i>=0;i--){
+            int index=(int)Math.floor(Math.random()*i);
+            int temp=arr[index];
+            arr[index]=arr[i];
+            arr[i]=temp;
+        }
+
         return arr;
     }
 

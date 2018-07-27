@@ -5,6 +5,7 @@ import org.junit.Test;
 
 /**
  * 插入排序(从小到大)
+ * 时间复杂度： 最好：O(n), 最坏：O(n^2)
  * Created by fuzhongyu on 2017/3/7.
  */
 public class InsertSort extends Sort{
@@ -20,7 +21,7 @@ public class InsertSort extends Sort{
     }
 
     /**
-     * 冒泡排序算法（从第一个开始和后面的挨个比较，将较大的值放后面，这样一次循环能将最大值放最后面）
+     * 找到插入位置，如果不是最大值，则后面的数据需要往后移
      * @param arr  需要排序的数组
      * @return
      */

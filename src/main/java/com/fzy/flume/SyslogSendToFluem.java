@@ -29,6 +29,7 @@ public class SyslogSendToFluem {
 
     public static void main(String[] args) {
 
+
         StringBuffer stringBuffer=new StringBuffer("");
         stringBuffer.append("<190>2016-10-12 03:43:03 TelinAC --AC/SSID/1/syslog(23): telnet; SSID; 412001; Station(ip='192.168.100.120'&mac='3C:32:02:28:4E:A2') 通过SSID(name='test_ssid_1'&vlan=12)");
 
@@ -41,15 +42,28 @@ public class SyslogSendToFluem {
             e.printStackTrace();
         }
 
-        int i=0;
-        String str=stringBuffer.toString();
-        while (true){
+        String str="<141>2018-01-22 15:54:06 TelinAP --AP/SCAN/5/syslog(17): system; SCAN; 00040002; Scan(object='ap'&mac='6C:19:8F:08:BA:6A'&power='-77')";
+//        String str="<142>2016-10-13 03:47:06 TelinAP --AP/AP/6/syslog(23): system; AP; 00020003; AP(sn='ZH010008D175000201'&ip='172.16.10.109'&mac='3C:32:02:28:4E:B5') via Interface(name='br_lan') Flow(up='1040'&down='2050').";
+//        sendLog("wlanscope.telincn.com",2514,str,6);
+//        sendLog("122.224.64.245",2514,str,6);41321
+//        sendLog("192.168.1.63",2514,str,6);
+          sendLog("127.0.0.1",2514,str,6);
 
-            System.out.println(i++);
+//        sendLog("127.0.0.1",4444,str,6);
 
-            sendLog("127.0.0.1",4444,str,6);
-
-        }
+//        int i=0;
+//        Long t1=System.currentTimeMillis();
+//        while (true && (System.currentTimeMillis()-t1)<120000){
+//            sendLog("192.168.1.63",2514,str,6);
+//            try {
+//                Thread.sleep(10);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//            i++;
+//        }
+//
+//        System.out.println(i);
 
 
 
